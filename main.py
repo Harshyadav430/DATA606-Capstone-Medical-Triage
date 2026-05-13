@@ -1,4 +1,7 @@
 import streamlit as st
+from pathlib import Path
+
+photos_path = Path("data") / "photos"
 
 st.set_page_config(page_title="ATTRA", layout="centered")
 
@@ -26,15 +29,24 @@ st.markdown("---")
 # ---------------------------
 # SECTION: Diagnosis Tool
 # ---------------------------
-st.subheader("Diagnosis Tool")
-st.write("""
-The Diagnosis Tool analyzes your symptoms and medical history to estimate the most 
-likely conditions. It uses structured clinical features and pattern recognition to 
-provide a ranked list of possibilities.
-""")
 
-if st.button("Get Started – Diagnosis Tool"):
-    st.switch_page("pages/diagnosis_main.py")
+col1, col2 = st.columns([3, 1])
+
+with col1:
+    
+    st.subheader("Diagnosis Tool")
+    st.write("""
+    The Diagnosis Tool analyzes your symptoms and medical history to estimate the most 
+    likely conditions. It uses structured clinical features and pattern recognition to 
+    provide a ranked list of possibilities.
+    """)
+
+    if st.button("Start Diagnosis"):
+        st.switch_page("pages/diagnosis_main.py")
+
+with col2:
+    st.markdown("<div style='padding-top: 25px;'></div>", unsafe_allow_html=True)
+    st.image(f"{photos_path}/doctor.png", width=300)     
 
 st.markdown("---")
 
@@ -42,17 +54,25 @@ st.markdown("---")
 # ---------------------------
 # SECTION: Triage Tool
 # ---------------------------
-st.subheader("Triage Tool")
-st.write("""
-The Triage Tool evaluates the urgency of your symptoms and provides guidance on 
-whether you will likely be admitted or discharged from an emergency department.
-This tool may assist but should NOT be solely relied on to determine whether you
-should seek emergency care. 
-""")
 
-if st.button("Get Started – Triage Tool"):
-    st.switch_page("pages/triage_main.py")
+col1, col2 = st.columns([3, 1])
 
+with col1:
+    st.subheader("Triage Tool")
+    st.write("""
+    The Triage Tool evaluates the urgency of your symptoms and provides guidance on 
+    whether you will likely be admitted or discharged from an emergency department.
+    This tool may assist but should NOT be solely relied on to determine whether you
+    should seek emergency care. 
+    """)
+
+    if st.button("Start Triage"):
+        st.switch_page("pages/triage_main.py")
+        
+with col2:
+    st.markdown("<div style='padding-top: 25px;'></div>", unsafe_allow_html=True)
+    st.image(f"{photos_path}/hospital_bed.png", width=300) 
+    
 st.markdown("---")
 
 
