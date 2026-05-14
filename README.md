@@ -4,10 +4,12 @@
 ### Purpose: 
 Globally, medical facilities are inundated by the numbers of patients seeking emergency care.  Inefficient triaging causes non-emergency patient care to consume precious resources from those facing life-threatening medical situations.  To help make more efficient use of scarce resources, we offer an at-home triage and treatment recommendation application to offer initial triaging and disease identification, to recommend medications, and advise admission to a hospital, if necessary.  A literature review has demonstrated a plethora of research suggesting the effectiveness in using ML to assist in triaging patients for in-patient and out-patient care.  Healthcare providers are optimistic that if carefully integrated, ML triaging could assist in diverting non-emergency patients from emergency services.
 
-### Precautionary Statements:
-> - DO NOT use this tool to completely base decision to seek medical attention.  
+> [!WARNING]
+> DO NOT use this tool to completely base decision to seek medical attention.
 
-### Components
+--- 
+
+### System Components
 
 #### - Diagnosis Tool
 > DESCRIPTION
@@ -20,6 +22,19 @@ Globally, medical facilities are inundated by the numbers of patients seeking em
 > - Can be found at this link: 
 >   - 220/972 attributes and 260k/560k records were used from original dataset.
 
+
+### Model Summary
+
+| Component       | Methodology                     | Notes |
+|----------------|----------------------------------|-------|
+| Triage Model   | XGBoost (Gradient Boosted Trees) | Trained on Yale ED dataset |
+| Diagnosis Tool | Symptom-based classification     | Prototype stage |
+
+
+
+
+
+---
 
 ### Documentation:
 
@@ -45,3 +60,18 @@ Globally, medical facilities are inundated by the numbers of patients seeking em
 #### pages
 > - diagnosis_main.py: main script for diagnosis tool
 > - triage_main.py: main script for triage tool
+
+---
+
+### Getting Started
+- Install a virtual environment (venv) for Python (recommended)
+- install streamlit through homebrew
+- Start venv with `pip install -r requirements.txt`
+- 
+
+Run `source venv/bin/activate` to install dependencies.
+
+
+```bash
+streamlit run main.py
+```
