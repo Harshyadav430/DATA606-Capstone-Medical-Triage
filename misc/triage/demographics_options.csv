@@ -1,0 +1,12 @@
+gender,['Male' 'Female']
+ethnicity,['Hispanic or Latino' 'Non-Hispanic' 'Patient Refused' 'Unknown']
+race,"['White or Caucasian' 'Native Hawaiian or Other Pacific Islander' 'Other'
+ 'Black or African American' 'Patient Refused' 'Asian' 'Unknown'
+ 'American Indian or Alaska Native' np.str_('nan')]"
+lang,['English' 'Other']
+religion,"['Unknown' 'Pentecostal' 'Catholic' 'Protestant' 'Christian' 'Other', 'Baptist' 'Methodist' 'Episcopal' 'Jewish' 'Muslim' ""Jehovah's Witness""]"
+maritalstatus,"['Single' 'Married' 'Widowed' 'Significant Other' 'Divorced'
+ 'Legally Separated' 'Other' 'Unknown' 'Life Partner' 'Civil Union']"
+employstatus,"['Full Time' 'Not Employed' 'Retired' 'Disabled' 'Part Time', 'Self Employed' 'On Active Military Duty' 'Student - Full Time' 'Unknown', 'Student - Part Time']"
+insurance_status,['Other' 'Commercial' 'Medicare' 'Medicaid' 'Self pay']
+previousdispo,"['No previous dispo' 'Discharge' 'Admit' 'Transfer to Another Facility', 'AMA' 'LWBS after Triage' 'Eloped' 'LWBS before Triage' 'Observation', 'Send to L&D']"
