@@ -6,12 +6,16 @@ Globally, medical facilities are inundated by the numbers of patients seeking em
 
 ### Components
 
-#### Diagnosis Tool
+#### - Diagnosis Tool
+> DESCRIPTION
+> - HOW TOOL WORKS
+> - OTHER DETAILS
 
-
-#### Triage Tool
-> - Dataset (in RData) was collected by Yale School of Medicine and was publically available from research conducted by Hong, Haimovich, and Taylor (2018).  Can be found at this link:
-> - 220/972 attributes were taken out of dataset but still contains (n=560,486) records.
+#### - Triage Tool
+> The Triage Tool evaluates the urgency of users symptoms and provides guidance on whether they will likely be admitted or discharged from an emergency department. This tool may assist but should NOT be solely relied on to determine whether you should seek emergency care.
+> - The tool utilizes an XGBoost model trained, tested, and validated on a dataset (in RData) collected by Yale School of Medicine and was publically available from research conducted by Hong, Haimovich, and Taylor (2018).
+> - Can be found at this link: 
+>   - 220/972 attributes and 260k/560k records were used from original dataset.
 
 
 ### Documentation:
