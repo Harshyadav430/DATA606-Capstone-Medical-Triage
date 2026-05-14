@@ -14,7 +14,8 @@ Globally, medical facilities are inundated by the numbers of patients seeking em
 > - 220/972 attributes were taken out of dataset but still contains (n=560,486) records.
 
 
-### Directories:
+### Documentation:
+
 > - main.py: main script for StreamLit app.
 
 #### src
