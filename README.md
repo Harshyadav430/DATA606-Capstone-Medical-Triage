@@ -42,7 +42,7 @@ Globally, medical facilities are inundated by the numbers of patients seeking em
 
 | Component       | Methodology                     | Features | Records | Performance |
 |----------------|----------------------------------|-------|-------|-------|
-| Triage Model   | XGBoost (Gradient Boosted Trees) | 220/972 | 260k/560k | AUC = .85 // thresh = .5 | 
+| Triage Model   | XGBoost (Gradient Boosted Trees) | 220/972 | 270k/560k | AUC = .85 // thresh = .5 | 
 | Diagnosis Tool | Symptom-based classification     | | | Prototype stage |
 
 ---
