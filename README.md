@@ -17,17 +17,22 @@ Globally, medical facilities are inundated by the numbers of patients seeking em
 > - OTHER DETAILS
 
 #### - Triage Tool (TT)
-> The Triage Tool evaluates the urgency of users symptoms and provides guidance on whether they will likely be admitted or discharged from an emergency department. This tool may assist but should NOT be solely relied on to determine whether you should seek emergency care.
-> - The tool utilizes an XGBoost model trained, tested, and validated on a dataset (in RData) collected by Yale School of Medicine and was publically available from research conducted by Hong, Haimovich, and Taylor (2018).
-> - Can be found at this link: 
->   - 220/972 attributes and 260k/560k records were used from original dataset.
+> The Triage Tool evaluates the urgency of users' symptoms and self-obtained vitals to evaluate whether they will likely be admitted or discharged from an emergency department.
+> - Dataset was collected by Yale School of Medicine and available from research conducted by Hong, Haimovich, and Taylor (2018):
+>   - GitHub: https://github.com/yaleemmlc/admissionprediction/tree/master
+>   - Article: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201016
+> - User Input: multiple-choice, free-text, and checkbox questions for easy, efficient input.
+> - Model Output: binary prediction (admission vs. discharge) and probability (model certainty)
 
-### Tool Summary
+> [!WARNING]
+> This tool may assist but should NOT be solely relied on to determine whether you should seek emergency care.
 
-| Component       | Methodology                     | Performance |
-|----------------|----------------------------------|-------|
-| Triage Model   | XGBoost (Gradient Boosted Trees) | AUC = .85 // thresh = .5 | 
-| Diagnosis Tool | Symptom-based classification     | Prototype stage |
+### Tool Performance Summary
+
+| Component       | Methodology                     | Features | Records | Performance |
+|----------------|----------------------------------|-------|-------|-------|
+| Triage Model   | XGBoost (Gradient Boosted Trees) | 220/972 | 260k/560k | AUC = .85 // thresh = .5 | 
+| Diagnosis Tool | Symptom-based classification     | | | Prototype stage |
 
 ---
 
