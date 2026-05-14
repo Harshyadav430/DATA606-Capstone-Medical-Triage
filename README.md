@@ -30,7 +30,10 @@ Globally, medical facilities are inundated by the numbers of patients seeking em
 > - response_template.csv: template for inputing user response from questionnaire into model
 > 
 > photos
-> - royalty-free photos used for GUI  
+> - royalty-free photos used for GUI
+
+#### misc
+> - (not used) drugbank_ds_utils.py: script queries a BaseX server with DrugBank database (free educational version) uploaded. No actual database in the script. (For access to free, educational-use database, reach out to a DrugBank representative.)
 
 #### pages
 > - diagnosis_main.py: main script for diagnosis tool
