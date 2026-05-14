@@ -15,12 +15,12 @@ Globally, medical facilities are inundated by the numbers of patients seeking em
 
 
 ### Directories:
-> - main.py
->   - Starting script for StreamLit app functionality.
+> - main.py: main script for StreamLit app.
 
 #### src
 > - triage_dataset_extract.R
 >     - Filters out selected 219/972 attributes from Yale School of Medicine dataset (named "Yale_Dataset.RData").
+> - triage_xgb.py: script that provides xgboost-related functions used in triage.ipynb and triage_main.py  
 
 #### data
 > triage
@@ -32,4 +32,5 @@ Globally, medical facilities are inundated by the numbers of patients seeking em
 > - royalty-free photos used for GUI  
 
 #### pages
-
+> - diagnosis_main.py: main script for diagnosis tool
+> - triage_main.py: main script for triage tool
