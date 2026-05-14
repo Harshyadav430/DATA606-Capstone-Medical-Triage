@@ -77,11 +77,12 @@ ATTRA/
 ---
 
 ## *Getting Started*
-- Install a virtual environment (venv) for Python (recommended)
-- Install necessary packages, e.g. streamlit, through homebrew and 'pip install'
-- Navigate to local project folder and start venv:
+- Install and run virtual environment (venv) for Python (recommended)
+- Install necessary packages, e.g. streamlit.
+- Clone repository:
 ```bash
-source venv/bin/activate
+git clone https://github.com/Harshyadav430/DATA606-Capstone-Medical-Triage.git
+cd DATA606-Capstone-Medical-Triage
 ```
 - Run app:
 ```bash
