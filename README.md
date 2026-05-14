@@ -25,7 +25,10 @@ Globally, medical facilities are inundated by the numbers of patients seeking em
 #### data
 > triage
 > - XGBoost_Triage_Model_AUC#*: contains current model to load and use for Triage Tool.
-> - 
+> - feature_.*.csv: dictionaries mapping original features to options for questionnaire
+> - response_template.csv: template for inputing user response from questionnaire into model
+> photos
+> - royalty-free photos used for GUI  
 
 #### pages
 
