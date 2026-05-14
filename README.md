@@ -23,6 +23,9 @@ Globally, medical facilities are inundated by the numbers of patients seeking em
 >     - Filters out selected 219/972 attributes from Yale School of Medicine dataset (named "Yale_Dataset.RData").
 
 #### data
+> triage
+> - XGBoost_Triage_Model_AUC#*: contains current model to load and use for Triage Tool.
+> - 
 
 #### pages
 
