@@ -1,15 +1,26 @@
 # DATA606 - Data Science Capstone
-## At-Home Triage and Treatment Recommendation Application (ATTRA)
+### At-Home Triage and Treatment Recommendation Application (ATTRA)
+#### Urja Kuppa | Ayushi Mukesh Patel | Tyler Snow | Harsh Mahesh Yadav
 
-### Purpose: 
+---
+
+### *Purpose*: 
 Globally, medical facilities are inundated by the numbers of patients seeking emergency care.  Inefficient triaging causes non-emergency patient care to consume precious resources from those facing life-threatening medical situations.  To help make more efficient use of scarce resources, we offer an at-home triage and treatment recommendation application to offer initial triaging and disease identification, to recommend medications, and advise admission to a hospital, if necessary.  A literature review has demonstrated a plethora of research suggesting the effectiveness in using ML to assist in triaging patients for in-patient and out-patient care.  Healthcare providers are optimistic that if carefully integrated, ML triaging could assist in diverting non-emergency patients from emergency services.
+
+
+### *Research Questions*: 
+
+- What is the potential business value of deploying an at‑home disease prediction and medication recommendation tool based on the users' chief complaints in terms of user adoption, cost savings, and scalable digital healthcare services?
+
+- How can we make the prediction process transparent, understandable, and trustworthy so patients feel confident using the system before booking appointments or spending money on emergency room visits?
+
 
 > [!WARNING]
 > ATTRA is a project developed for academic purposes. It is not a medical device, has not undergone clinical validation, and must not be used to make medical decisions. Users experiencing concerning symptoms should seek immediate professional medical care.
 
 --- 
 
-### System Components
+### *System Components*
 
 #### - Diagnosis Tool (DT)
 > DESCRIPTION
@@ -36,7 +47,7 @@ Globally, medical facilities are inundated by the numbers of patients seeking em
 
 ---
 
-### Repository Structure:
+### *Repository Structure*:
 
 ```
 ATTRA/
@@ -65,7 +76,7 @@ ATTRA/
 
 ---
 
-## Getting Started
+## *Getting Started*
 - Install a virtual environment (venv) for Python (recommended)
 - Install necessary packages, e.g. streamlit, through homebrew and 'pip install'
 - Navigate to local project folder and start venv:
