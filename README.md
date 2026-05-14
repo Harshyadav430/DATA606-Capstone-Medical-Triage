@@ -36,28 +36,27 @@ Globally, medical facilities are inundated by the numbers of patients seeking em
 ```
 ATTRA/
 │
-├── main.py                     # Primary Streamlit application entry point
-│
-├── src/
-│   ├── triage_dataset_extract.R   # R script for feature extraction and preprocessing
-│   └── triage_xgb.py              # XGBoost model utilities for training and inference
-│   
-│
 ├── data/
-│   ├── triage/
-│   │   ├── XGBoost_Triage_Model_AUC*.model   # Serialized XGBoost model for TT
-│   │   ├── feature_*.csv                     # Feature dictionaries for TT questionnaire mapping
-│   │   └── response_template.csv             # Input schema for model inference
-│   │
-│   └── photos/                               # Royalty‑free images for UI
+│   ├── photos/                               # Royalty‑free images for UI
+│   └── triage/
+│       ├── XGBoost_Triage_Model_AUC*.model   # Serialized XGBoost model for TT
+│       ├── feature_*.csv                     # Feature dictionaries for TT questionnaire mapping
+│       └── response_template.csv             # Input schema for model inference
+│
+├── main.py                                   # Primary Streamlit application entry point
+│
+├── misc/
+│   └── drugbank_ds_utils.py                  # (Unused) DrugBank BaseX query utilities
 │
 ├── pages/
-│   ├── diagnosis_main.py       # Main script for DT
-│   └── triage_main.py          # Main script for TT
+│   ├── diagnosis_main.py                     # Main script for DT
+│   └── triage_main.py                        # Main script for TT
 │
-└── misc/
-    └── drugbank_ds_utils.py    # (Unused) DrugBank BaseX query utilities
+└── src/
+    ├── triage_dataset_extract.R              # R script for feature extraction and preprocessing
+    └── triage_xgb.py                         # XGBoost model utilities for training and inference
 ```
+
 
 ---
 
