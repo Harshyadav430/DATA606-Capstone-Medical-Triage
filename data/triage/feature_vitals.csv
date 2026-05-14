@@ -1,0 +1,7 @@
+orig_feature,replace_feature,segment_feature
+triage_vital_hr, hr, No Change
+triage_vital_sbp, sbp, No Change
+triage_vital_dbp, dbp, No Change
+triage_vital_rr, rr, No Change
+triage_vital_o2, o2, No Change
+triage_vital_temp,temperature, No Change

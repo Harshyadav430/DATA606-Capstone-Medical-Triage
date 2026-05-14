@@ -1,0 +1,23 @@
+orig_feature,replace_feature,segment_feature,options
+age, No Change,age,int
+gender, No Change, gender,"[Male', 'Female']"
+ethnicity, No Change, ethnicity,"['Hispanic or Latino', 'Non-Hispanic', 'Patient Refused', 'Unknown']"
+race, No Change, race,"['White or Caucasian', 'Native Hawaiian or Other Pacific Islander',
+'Other', 'Black or African American', 'Patient Refused', 'Asian',
+'Unknown', 'American Indian or Alaska Native'"
+lang, No Change, language,"['English', 'Other']"
+religion, No Change, religion,"['Unknown', 'Pentecostal', 'Catholic', 'Protestant', 'Christian',
+'Other', 'Baptist', 'Methodist', 'Episcopal', 'Jewish', 'Muslim',
+""Jehovah's Witness""]
+'Other', 'Baptist', 'Methodist', 'Episcopal', 'Jewish', 'Muslim',
+""Jehovah's Witness""]"
+maritalstatus, No Change, marital status,"['Single', 'Married', 'Widowed', 'Significant Other', 'Divorced',
+'Legally Separated', 'Other', 'Unknown', 'Life Partner',
+'Civil Union']"
+employstatus, No Change, employment status,"['Full Time', 'Not Employed', 'Retired', 'Disabled', 'Part Time',
+'Self Employed', 'On Active Military Duty', 'Student - Full Time',
+'Unknown', 'Student - Part Time']"
+insurance_status, No Change, insurance status,"['Other', 'Commercial', 'Medicare', 'Medicaid', 'Self pay']"
+previousdispo, No Change, Admitted to Hospital During Last Visit,"['No previous dispo', 'Discharge', 'Admit',
+'Transfer to Another Facility', 'AMA', 'LWBS after Triage',
+'Eloped', 'LWBS before Triage', 'Observation', 'Send to L&D']"

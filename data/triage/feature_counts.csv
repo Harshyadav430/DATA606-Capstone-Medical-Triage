@@ -1,0 +1,4 @@
+orig_feature,replace_feature,segment_feature
+n_surgeries, surgeries, surgeries (in lifetime)
+n_edvisits, edvisits, ED Visits (in last year)
+n_admissions, admissions, Hospital Admissions (in last year)

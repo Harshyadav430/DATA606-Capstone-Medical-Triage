@@ -1,0 +1,201 @@
+orig_feature,replace_feature,segment_feature
+cc_abdominalcramping,abdominalcramping,abdominal cramping
+cc_abdominaldistention,abdominaldistention,abdominal distention
+cc_abdominalpain,abdominalpain,abdominal pain
+cc_abdominalpainpregnant,abdominalpainpregnant,abdominal pain pregnant
+cc_abnormallab,abnormallab,abnormal lab
+cc_abscess,abscess,abscess
+cc_addictionproblem,addictionproblem,addiction problem
+cc_agitation,agitation,agitation
+cc_alcoholintoxication,alcoholintoxication,alcohol intoxication
+cc_alcoholproblem,alcoholproblem,alcohol problem
+cc_allergicreaction,allergicreaction,allergic reaction
+cc_alteredmentalstatus,alteredmentalstatus,altered mental status
+cc_animalbite,animalbite,animal bite
+cc_ankleinjury,ankleinjury,ankle injury
+cc_anklepain,anklepain,ankle pain
+cc_anxiety,anxiety,anxiety
+cc_arminjury,arminjury,arm injury
+cc_armpain,armpain,arm pain
+cc_armswelling,armswelling,arm swelling
+cc_assaultvictim,assaultvictim,assault victim
+cc_asthma,asthma,asthma
+cc_backpain,backpain,back pain
+cc_bleeding/bruising,bleeding/bruising,bleeding or bruising
+cc_blurredvision,blurredvision,blurred vision
+cc_bodyfluidexposure,bodyfluidexposure,body fluid exposure
+cc_breastpain,breastpain,breast pain
+cc_breathingdifficulty,breathingdifficulty,breathing difficulty
+cc_breathingproblem,breathingproblem,breathing problem
+cc_burn,burn,burn
+cc_cardiacarrest,cardiacarrest,cardiac arrest
+cc_cellulitis,cellulitis,cellulitis
+cc_chestpain,chestpain,chest pain
+cc_chesttightness,chesttightness,chest tightness
+cc_chills,chills,chills
+cc_coldlikesymptoms,coldlikesymptoms,cold like symptoms
+cc_confusion,confusion,confusion
+cc_conjunctivitis,conjunctivitis,conjunctivitis
+cc_constipation,constipation,constipation
+cc_cough,cough,cough
+cc_cyst,cyst,cyst
+cc_decreasedbloodsugar-symptomatic,decreasedbloodsugar-symptomatic,decreased blood sugar symptomatic
+cc_dehydration,dehydration,dehydration
+cc_dentalpain,dentalpain,dental pain
+cc_depression,depression,depression
+cc_detoxevaluation,detoxevaluation,detox evaluation
+cc_diarrhea,diarrhea,diarrhea
+cc_dizziness,dizziness,dizziness
+cc_drug/alcoholassessment,drug/alcoholassessment,drug alcohol assessment
+cc_drugproblem,drugproblem,drug problem
+cc_dyspnea,dyspnea,dyspnoea
+cc_dysuria,dysuria,dysuria
+cc_earpain,earpain,ear pain
+cc_earproblem,earproblem,ear problem
+cc_edema,edema,edema
+cc_elbowpain,elbowpain,elbow pain
+cc_elevatedbloodsugar-nosymptoms,elevatedbloodsugar-nosymptoms,elevated blood sugar but no symptoms
+cc_elevatedbloodsugar-symptomatic,elevatedbloodsugar-symptomatic,elevated blood sugar symptomatic
+cc_emesis,emesis,emesis
+cc_epigastricpain,epigastricpain,epigastric pain
+cc_epistaxis,epistaxis,epistaxis
+cc_exposuretostd,exposuretostd,exposure to STD
+cc_extremitylaceration,extremitylaceration,extremity laceration
+cc_extremityweakness,extremityweakness,extremity weakness
+cc_eyeinjury,eyeinjury,eye injury
+cc_eyepain,eyepain,eye pain
+cc_eyeproblem,eyeproblem,eye problem
+cc_eyeredness,eyeredness,eye redness
+cc_facialinjury,facialinjury,facial injury
+cc_faciallaceration,faciallaceration,facial laceration
+cc_facialpain,facialpain,facial pain
+cc_facialswelling,facialswelling,facial swelling
+cc_fall,fall,fall
+cc_fall>65,fall>65,fall when older than 65 Y/O
+cc_fatigue,fatigue,fatigue
+cc_femaleguproblem,femaleguproblem,(Female) Genitourinary Issues
+cc_fever,fever,fever
+cc_fever-75yearsorolder,fever-75yearsorolder,Fever when older than 75 Y/O
+cc_fever-9weeksto74years,fever-9weeksto74years,Fever when younger than 75 Y/O
+cc_feverimmunocompromised,feverimmunocompromised,fever and immunocompromised
+cc_fingerinjury,fingerinjury,finger injury
+cc_fingerpain,fingerpain,finger pain
+cc_fingerswelling,fingerswelling,finger swelling
+cc_flankpain,flankpain,flank pain
+cc_follow-upcellulitis,follow-upcellulitis,follow-up of cellulitis diagnosis
+cc_footinjury,footinjury,foot injury
+cc_footpain,footpain,foot pain
+cc_footswelling,footswelling,foot swelling
+cc_foreignbodyineye,foreignbodyineye,foreign body in eye
+cc_fulltrauma,fulltrauma,full trauma
+cc_generalizedbodyaches,generalizedbodyaches,generalized body aches
+cc_gibleeding,gibleeding,bleeding
+cc_giproblem,giproblem,problem
+cc_groinpain,groinpain,groin pain
+cc_hallucinations,hallucinations,hallucinations
+cc_handinjury,handinjury,hand injury
+cc_handpain,handpain,hand pain
+cc_headache,headache,headache
+cc_headache-newonsetornewsymptoms,headache-newonsetornewsymptoms,headache - new onset or new symptoms
+cc_headache-recurrentorknowndxmigraines,headache-recurrentorknowndxmigraines,headache - recurrent or known migraines
+cc_headachere-evaluation,headachere-evaluation,headache - reevaluation
+cc_headinjury,headinjury,head injury
+cc_headlaceration,headlaceration,head laceration
+cc_hematuria,hematuria,hematuria
+cc_hemoptysis,hemoptysis,hemoptysis
+cc_hippain,hippain,hip pain
+cc_homicidal,homicidal,homicidal
+cc_hyperglycemia,hyperglycemia,hyperglycemia
+cc_hypertension,hypertension,hypertension
+cc_hypotension,hypotension,hypotension
+cc_influenza,influenza,influenza
+cc_ingestion,ingestion,ingestion
+cc_insectbite,insectbite,insect bite
+cc_irregularheartbeat,irregularheartbeat,irregular heartbeat
+cc_jawpain,jawpain,jaw pain
+cc_jointswelling,jointswelling,joint swelling
+cc_kneeinjury,kneeinjury,knee injury
+cc_kneepain,kneepain,knee pain
+cc_laceration,laceration,laceration
+cc_leginjury,leginjury,leg injury
+cc_legpain,legpain,leg pain
+cc_legswelling,legswelling,leg swelling
+cc_lethargy,lethargy,lethargy
+cc_lossofconsciousness,lossofconsciousness,loss of consciousness
+cc_maleguproblem,maleguproblem,(Male) Genitourinary Issues
+cc_mass,mass,mass (cancer)
+cc_medicalproblem,medicalproblem,medical problem
+cc_medicalscreening,medicalscreening,medical screening
+cc_medicationproblem,medicationproblem,medication problem
+cc_medicationrefill,medicationrefill,medication refill
+cc_migraine,migraine,migraine
+cc_modifiedtrauma,modifiedtrauma,modified trauma
+cc_motorcyclecrash,motorcyclecrash,motorcycle crash
+cc_motorvehiclecrash,motorvehiclecrash,motor vehicle crash
+cc_multiplefalls,multiplefalls,multiple falls
+cc_nasalcongestion,nasalcongestion,nasal congestion
+cc_nausea,nausea,nausea
+cc_nearsyncope,nearsyncope,near syncope
+cc_neckpain,neckpain,neck pain
+cc_neurologicproblem,neurologicproblem,neurologic problem
+cc_numbness,numbness,numbness
+cc_oralswelling,oralswelling,oral swelling
+cc_otalgia,otalgia,otalgia (ear pain)
+cc_other,other,other
+cc_overdose-accidental,overdose-accidental,overdose-accidental
+cc_overdose-intentional,overdose-intentional,overdose-intentional
+cc_pain,pain,pain
+cc_palpitations,palpitations,palpitations
+cc_panicattack,panicattack,panic attack
+cc_pelvicpain,pelvicpain,pelvic pain
+cc_poisoning,poisoning,poisoning
+cc_post-opproblem,post-opproblem,post problem
+cc_psychiatricevaluation,psychiatricevaluation,psychiatric evaluation
+cc_psychoticsymptoms,psychoticsymptoms,psychotic symptoms
+cc_rapidheartrate,rapidheartrate,rapid heart rate
+cc_rash,rash,rash
+cc_rectalbleeding,rectalbleeding,rectal bleeding
+cc_rectalpain,rectalpain,rectal pain
+cc_respiratorydistress,respiratorydistress,respiratory distress
+cc_ribinjury,ribinjury,rib injury
+cc_ribpain,ribpain,rib pain
+cc_seizure-newonset,seizure-newonset,seizure - new onset
+cc_seizure-priorhxof,seizure-priorhxof,seizure - with prior incidents
+cc_seizures,seizures,seizures
+cc_shortnessofbreath,shortnessofbreath,shortness of breath
+cc_shoulderinjury,shoulderinjury,shoulder injury
+cc_shoulderpain,shoulderpain,shoulder pain
+cc_sicklecellpain,sicklecellpain,sickle cell pain
+cc_sinusproblem,sinusproblem,sinus problem
+cc_skinirritation,skinirritation,skin irritation
+cc_skinproblem,skinproblem,skin problem
+cc_sorethroat,sorethroat,sore throat
+cc_stdcheck,stdcheck,STD
+cc_strokealert,strokealert,stroke alert
+cc_suicidal,suicidal,suicidal
+cc_suture/stapleremoval,suture/stapleremoval,suture or staple removal
+cc_swallowedforeignbody,swallowedforeignbody,swallowed foreign body
+cc_syncope,syncope,syncope
+cc_tachycardia,tachycardia,tachycardia
+cc_testiclepain,testiclepain,testicle pain
+cc_thumbinjury,thumbinjury,thumb injury
+cc_tickremoval,tickremoval,tick removal
+cc_toeinjury,toeinjury,toe injury
+cc_toepain,toepain,toe pain
+cc_trauma,trauma,trauma
+cc_unresponsive,unresponsive,unresponsive
+cc_uri,uri,URI
+cc_urinaryfrequency,urinaryfrequency,urinary frequency
+cc_urinaryretention,urinaryretention,urinary retention
+cc_urinarytractinfection,urinarytractinfection,urinary tract infection
+cc_vaginalbleeding,vaginalbleeding,vaginal bleeding
+cc_vaginaldischarge,vaginaldischarge,vaginal discharge
+cc_vaginalpain,vaginalpain,vaginal pain
+cc_weakness,weakness,weakness
+cc_wheezing,wheezing,wheezing
+cc_withdrawal-alcohol,withdrawal-alcohol,withdrawal alcohol
+cc_woundcheck,woundcheck,wound check
+cc_woundinfection,woundinfection,wound infection
+cc_woundre-evaluation,woundre-evaluation,wound reevaluation
+cc_wristinjury,wristinjury,wrist injury
+cc_wristpain,wristpain,wrist pain
