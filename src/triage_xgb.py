@@ -48,7 +48,8 @@ def make_xgb_predictions(model, X_test, y_test, thresholds):
   for thresh in thresholds: 
   
     y_pred_labels = (preds > thresh).astype(int)
-  
+
+    print("...")
     print(f"Performance with threshold = {thresh}:")
     print("Accuracy:", accuracy_score(y_test, y_pred_labels))
     print("Precision:", precision_score(y_test, y_pred_labels))
@@ -180,11 +181,11 @@ def read_log(log):
 
 
 # Returns discharge prediction based on model
-def predict_discharge(model, data:pd.DataFrame):
+def predict_discharge(model, data:pd.DataFrame, thresh):
   dsample = xgb.DMatrix(data, enable_categorical=True)
   pred = model.predict(dsample)
   pred_percent = f"{pred.item() *100:.2f}"
-  if pred > 0.5:
+  if pred > thresh:
     disp = True # discharged
     print("discharged")
   else:
