@@ -36,7 +36,7 @@ def train_xgb_booster(X_train, X_val, y_train, y_val, num_boost_round):
 
   return model
 
-def make_xgb_predictions(model, X_test, y_test):
+def make_xgb_predictions(model, X_test, y_test, thresholds):
   dtest  = xgb.DMatrix(X_test,  label=y_test, enable_categorical=True)
   preds = model.predict(dtest)
 
@@ -44,12 +44,17 @@ def make_xgb_predictions(model, X_test, y_test):
   best_auc = roc_auc_score(y_test, preds)
   print("AUC:", best_auc)
 
-  y_pred_labels = (preds > 0.5).astype(int)
-
-  print("Accuracy:", accuracy_score(y_test, y_pred_labels))
-  print("Precision:", precision_score(y_test, y_pred_labels))
-  print("Recall:", recall_score(y_test, y_pred_labels))
-  print("F1 Score:", f1_score(y_test, y_pred_labels))
+  
+  for thresh in thresholds: 
+  
+    y_pred_labels = (preds > thresh).astype(int)
+  
+    print(f"Performance with threshold = {thresh}:")
+    print("Accuracy:", accuracy_score(y_test, y_pred_labels))
+    print("Precision:", precision_score(y_test, y_pred_labels))
+    print("Recall:", recall_score(y_test, y_pred_labels))
+    print("F1 Score:", f1_score(y_test, y_pred_labels))
+    print("...")
 
   return best_auc # consider returning dict of results
 
