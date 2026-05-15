@@ -119,7 +119,7 @@ if st.button("Submit"):
 
     t_xgb.cast_response(df_response)
 
-    disp, pred_percent = t_xgb.predict_discharge(model,df_response)
+    disp, pred_percent = t_xgb.predict_discharge(model,df_response, .45)
 
     # --- Display colored result box ---
     if not disp:
