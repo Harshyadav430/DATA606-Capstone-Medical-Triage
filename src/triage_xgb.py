@@ -76,7 +76,7 @@ def get_importances(model):
   print(feat_imp.shape)
   return feat_imp
 
-def rfe_xgboost_booster(X_train, X_val, X_test, y_train, y_val, y_test, importances, best_auc, elimination_log, max_loss,min_features=100):
+def rfe_xgboost_booster(X_train, X_val, X_test, y_train, y_val, y_test, importances, best_auc, elimination_log, max_loss,min_features=100, thresh=.50):
   
   new_importances = importances.copy()
 
@@ -131,7 +131,7 @@ def rfe_xgboost_booster(X_train, X_val, X_test, y_train, y_val, y_test, importan
 
     # Retrain
     model_new = train_xgb_booster(X_train_new, X_val_new, y_train, y_val, 128)
-    auc_new = make_xgb_predictions(model_new, X_test_new, y_test)
+    auc_new = make_xgb_predictions(model_new, X_test_new, y_test, thresholds=[thresh])
     difference_auc = (best_auc - auc_new)
 
     print(f"\nAUC after removal: {auc_new:.4f}")
