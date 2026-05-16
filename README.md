@@ -42,7 +42,7 @@ Globally, medical facilities are inundated by the numbers of patients seeking em
 
 | Component       | Methodology                     | Features | Records | Performance |
 |----------------|----------------------------------|-------|-------|-------|
-| Triage Model   | XGBoost (Gradient Boosted Trees) | 220/972 | 270k/560k | AUC = .85 // thresh = .5 | 
+| Triage Model   | XGBoost (Gradient Boosted Trees) | 220/972 | 270k/560k | AUC (.85) // Accuracy (.82) // F1 (.88) | 
 | Diagnosis Tool | Symptom-based classification     | | | Prototype stage |
 
 ---
@@ -57,18 +57,22 @@ ATTRA/
 │   └── triage/
 │       ├── XGBoost_Triage_Model_AUC*.model   # Serialized XGBoost model for TT
 │       ├── feature_*.csv                     # Feature dictionaries for TT questionnaire mapping
+│       ├── response_template.csv             # Input schema for model inference
+│       └── rfe_log_complete.csv              # Comprehensive RFE log, used in triage.ipynb
 │       └── response_template.csv             # Input schema for model inference
 │
 ├── main.py                                   # Primary Streamlit application entry point
 │
 ├── misc/
-│   └── drugbank_ds_utils.py                  # (Unused) DrugBank BaseX query utilities
+│   └── triage/
+│       └── drugbank_ds_utils.py              # (Unused) DrugBank BaseX query utilities
 │
 ├── pages/
 │   ├── diagnosis_main.py                     # Main script for DT
 │   └── triage_main.py                        # Main script for TT
 │
 └── src/
+    ├── triage.ipynb                          # Notebook used for EDA, data cleaning, plots, etc.
     ├── triage_dataset_extract.R              # R script for feature extraction and preprocessing
     └── triage_xgb.py                         # XGBoost model utilities for training and inference
 ```
