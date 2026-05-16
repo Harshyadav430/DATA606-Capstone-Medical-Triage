@@ -74,17 +74,3 @@ with col2:
     st.image(f"{photos_path}/hospital_bed.png", width=300) 
     
 st.markdown("---")
-
-
-# ---------------------------
-# SECTION: Treatment Tool
-# ---------------------------
-st.subheader("Treatment Tool")
-st.write("""
-The Treatment Tool offers evidence-based recommendations for managing common 
-conditions at home, including over-the-counter options, supportive care, and 
-monitoring guidance.
-""")
-
-if st.button("Get Started – Treatment Tool"):
-    st.switch_page("pages/treatment_tool.py")
